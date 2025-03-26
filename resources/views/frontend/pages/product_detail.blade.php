@@ -414,7 +414,7 @@
                             </div>
                             <h3>$29.00</h3>
                             <div class="quickview-peragraph">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam.</p>
+                                <p>frock</p>
                             </div>
                             <div class="size">
                                 <div class="row">

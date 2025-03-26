@@ -43,7 +43,7 @@
 							{{-- <div class="button">
 								<a href="https://www.youtube.com/watch?v=nh2aYrGMrIE" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>
 							</div> --}}
-							<img src="@foreach($settings as $data) {{$data->photo}} @endforeach" alt="@foreach($settings as $data) {{$data->photo}} @endforeach">
+							<img src="https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?t=st=1742404045~exp=1742407645~hmac=8178e99ff68d1ec7c622ad4ad9e5b9c0ccea5f29dc719c1e19b98923bc344c74&w=1800" alt=" ">
 						</div>
 					</div>
 				</div>

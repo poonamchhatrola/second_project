@@ -33,12 +33,12 @@
                                 <div class="shop-single-blog">
                                 <img src="{{$post->photo}}" alt="{{$post->photo}}">
                                     <div class="content">
-                                        <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> {{$post->created_at->format('d M, Y. D')}}
+                                        {{-- <p class="date"><i class="fa fa-calendar" aria-hidden="true"></i> {{$post->created_at->format('d M, Y. D')}}
                                             <span class="float-right">
                                                 <i class="fa fa-user" aria-hidden="true"></i>
                                                  {{$post->author_info->name ?? 'Anonymous'}}
                                             </span>
-                                        </p>
+                                        </p> --}}
                                         <a href="{{route('blog.detail',$post->slug)}}" class="title">{{$post->title}}</a>
                                         <p>{!! html_entity_decode($post->summary) !!}</p>
                                         <a href="{{route('blog.detail',$post->slug)}}" class="more-btn">Continue Reading</a>
@@ -97,12 +97,12 @@
                                     </div>
                                     <div class="content">
                                         <h5><a href="#">{{$post->title}}</a></h5>
-                                        <ul class="comment">
+                                        {{-- <ul class="comment">
                                             <li><i class="fa fa-calendar" aria-hidden="true"></i>{{$post->created_at->format('d M, y')}}</li>
                                             <li><i class="fa fa-user" aria-hidden="true"></i>
                                                 {{$post->author_info->name ?? 'Anonymous'}}
                                             </li>
-                                        </ul>
+                                        </ul> --}}
                                     </div>
                                 </div>
                                 <!-- End Single Post -->
@@ -112,7 +112,7 @@
                         <!-- Single Widget -->
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
-                        <div class="single-widget side-tags">
+                        {{-- <div class="single-widget side-tags">
                             <h3 class="title">Tags</h3>
                             <ul class="tag">
                                 @if(!empty($_GET['tag']))
@@ -131,7 +131,7 @@
                                     @endforeach
                                 </form>
                             </ul>
-                        </div>
+                        </div> --}}
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget newsletter">

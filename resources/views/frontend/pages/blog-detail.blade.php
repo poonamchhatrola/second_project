@@ -112,13 +112,13 @@
 
                             <!--/ End Form -->
                             @endauth
-                            <div class="col-12">
+                            {{-- <div class="col-12">
                                 <div class="comments">
                                     <h3 class="comment-title">Comments ({{$post->allComments->count()}})</h3>
-                                    <!-- Single Comment -->
-                                    @include('frontend.pages.comment', ['comments' => $post->comments, 'post_id' => $post->id, 'depth' => 3])
-                                    <!-- End Single Comment -->
-                                </div>
+                                    Single Comment 
+                                    @include('frontend.pages.comment', ['comments' => $post->comments, 'post_id' => $post->id, 'depth' => 3]) 
+                                 End Single Comment 
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -156,9 +156,9 @@
                                     <div class="content">
                                         <h5><a href="#">{{$post->title}}</a></h5>
                                         <ul class="comment">
-                                            <li><i class="fa fa-calendar" aria-hidden="true"></i>{{$post->created_at->format('d M, y')}}</li>
-                                            <li><i class="fa fa-user" aria-hidden="true"></i>
-                                                {{$post->author_info->name ?? 'Anonymous'}}
+                                            {{-- <li><i class="fa fa-calendar" aria-hidden="true"></i>{{$post->created_at->format('d M, y')}}</li> --}}
+                                            {{-- <li><i class="fa fa-user" aria-hidden="true"></i> --}}
+                                                {{-- {{$post->author_info->name ?? 'Anonymous'}} --}}
                                             </li>
                                         </ul>
                                     </div>

@@ -11,8 +11,7 @@
                                 $settings=DB::table('settings')->get();
                                 
                             @endphp
-                            <li><i class="ti-headphone-alt"></i>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
-                            <li><i class="ti-email"></i> @foreach($settings as $data) {{$data->email}} @endforeach</li>
+                            
                         </ul>
                     </div>
                     <!--/ End Top Left -->
@@ -51,7 +50,7 @@
                         @php
                             $settings=DB::table('settings')->get();
                         @endphp                    
-                        <a href="{{route('home')}}"><img src="@foreach($settings as $data) {{$data->logo}} @endforeach" alt="logo"></a>
+                        <a href="{{route('home')}}"><img src="https://img.freepik.com/premium-vector/eshop-logo-design-vector-template-online-shop-logo-concept_809852-666.jpg?w=996" width="90rem" height="90rem alt="logo"></a>
                     </div>
                     <!--/ End Logo -->
                     <!-- Search Form -->
